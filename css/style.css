@@ -1,0 +1,250 @@
+/* header */
+.header-background {
+    background-image:url('../img/back.jpg');
+    width: 100%;
+    height: 324px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container {
+    max-width:1088px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navigation {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width:993px;
+    padding-top:30px;
+
+}
+.nav-a  {
+    color:white;
+    font-size: 12px;
+    font-weight: 900;
+}
+.nav-li {
+    margin-right: 49px;
+}
+.text h2 {
+    color: #FFFFFF;
+    font-size: 42px;
+    margin-top: 96px;
+}
+.text a {
+    color:#FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+.text {
+    margin-top: 14px;
+    z-index: 2;
+}
+.home::after {
+    content: '';
+    height: 19px;
+    width: 2px;
+    background-color: white;
+    margin-left: 15px;
+}
+.home {
+    margin-right: 15px;
+}
+.opacity {
+    background-color: black;
+    width: 100%;
+    height: 324px;
+    opacity: 50%;
+    z-index: 1;
+
+
+}
+.nav-c {
+    margin-left: 439px;
+    z-index: 2;
+}
+.zeta-l {
+    z-index: 2;
+}
+.navigation a:hover,
+.text a:hover {
+    color: #5863F8;
+    transition: all 0.2s ease-out 0.2s;
+    font-size: 16px;
+}
+/* section1 */
+.map {
+    width: 1088px;
+    height: 286px;
+    margin-top: 50px;
+}
+/* section2 */
+.section2-text {
+    margin-top: 56px;
+    margin-bottom: 50px;
+}
+.section2-text a {
+    font-size: 14px;
+    color: #5863F8;
+    width: 70px;
+    height: 20px;
+}
+.section2-text h4 {
+    color: #000000;
+    font-size: 42px;
+    width: 378px;
+    height: 115px;
+}
+.left-form {
+    width: 720px;
+    height: 288px;
+    resize: none;
+    background-color: #F8F8F8;
+    margin-right: 16px;
+}
+.right-form {
+    width: 352px;
+    height: 60px;
+    background-color: #F8F8F8;
+    margin-bottom: 15px; 
+}
+.send-button {
+    color:white;
+    background-color: blue;
+    width: 352px;
+    height: 62px;
+}
+.circle-wrap {
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.circle1-div {
+    background-color: #5863F8;
+    color: #FFFFFF;
+    width: 59px;
+    height: 58px;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.circle1 h4 {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+    width: 50px;
+    height: 25px;
+    justify-content: center;
+}
+.circle1 {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.circle1 p {
+    font-size: 14px;
+    color: #B1B1B1;
+}
+/* section3 */
+.section3-text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.section3-pict {
+    width: 100%;
+    justify-content: space-between;
+}
+.section3-text a {
+    color: #5863F8;
+    font-size: 14px;
+}
+.section3-text h4 {
+    font-size: 42px;
+    color: #000000;
+    width: 565px;
+    height: 115px;
+}
+/* footer */
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 395px;
+}
+.foot {
+    justify-content: space-between;
+}
+.box1 {
+    width: 256px;
+    height: 187px;
+    margin-top: 90px;
+    margin-bottom: 54px;
+}
+.box1 h4 {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.box1 p {
+    font-size: 14px;
+    color: #B1B1B1;
+    margin-bottom: 20px;
+}
+.box2 {
+    width: 103px;
+    height: 153px;
+    margin-top:90px;
+    margin-right: 81px;
+    margin-bottom: 54px;
+}
+.box2 h4 {
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 103px;
+    height: 25px;
+}
+.box2 a {
+    color: #5863F8;
+}
+.box3 {
+    width: 78px;
+    height: 155px;
+    margin-top: 90px;
+    margin-right: 106px;
+    margin-bottom: 54px;
+}
+.box3 h4 {
+    font-size: 18px;
+    color:#FFFFFF;
+    width: 68px;
+    height: 25px;
+}
+.box3 a {
+    color: #5863F8;
+}
+.box4 {
+    width: 198px;
+    height: 145px;
+    margin-top: 90px;
+    margin-bottom: 54px;
+}
+.box4 h4 {
+    color: #FFFFFF;
+    font-size: 18px;
+    width: 113px;
+    margin-bottom: 20px;
+}
+.box4 a {
+    color: #FFFFFF;
+}
+.maili,
+.mobile,
+.ruka {
+    color: blue;
+    margin-bottom: 20px;
+    margin-right: 14px;
+}
+.copyright {
+    color: #B1B1B1;
+    font-size: 14px;
+}
